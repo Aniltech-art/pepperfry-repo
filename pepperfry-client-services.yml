@@ -5,8 +5,8 @@ spring:
      username: root
      password: Anil
   jpa:
-    show-sql: true
+    show-sql: false
     generate-ddl: true
 product:
- name: Dell13.5Laptop
+ name: AppleMacbookSeries
 
