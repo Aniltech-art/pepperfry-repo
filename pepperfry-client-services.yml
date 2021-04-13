@@ -6,4 +6,7 @@ spring:
      password: Anil
   jpa:
     show-sql: true
-    generate-ddl: true 
+    generate-ddl: true
+product:
+  name: Dell Laptop
+
