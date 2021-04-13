@@ -8,5 +8,5 @@ spring:
     show-sql: true
     generate-ddl: true
 product:
- name: AppleMacbook5
+ name: Dell13.5Laptop
 
