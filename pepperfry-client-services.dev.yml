@@ -1,3 +1,5 @@
+server:
+  port: 8085		
 spring:
   datasource:
      driver-class-name: com.mysql.cj.jdbc.Driver
@@ -9,4 +11,9 @@ spring:
     generate-ddl: true
 product:
  name: AppleMacbookSeries
-
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    register-with-eureka: true
+    fetch-registry: false
