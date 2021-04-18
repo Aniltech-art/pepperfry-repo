@@ -1,3 +1,5 @@
+server:
+  port: 8085
 spring:
   datasource:
      driver-class-name: com.mysql.jdbc.Driver
@@ -15,5 +17,4 @@ eureka:
       defaultZone: http://localhost:8761/eureka
     register-with-eureka: true
     fetch-registry: false
-server:
-  port: 8085
+
